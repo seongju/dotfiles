@@ -2,6 +2,7 @@
 :filetype plugin indent on	" filetype detection[ON] plugin[ON] indent[ON]
 :set nu				" show line numbers
 :set incsearch			" but do highlight as you type your search
+:set hlsearch
 :set ignorecase			" make searches case-insensitive
 :set autoindent			" auto-indent
 :set tabstop=4			" tab spacing
