@@ -1,10 +1,7 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
-# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
-# for examples
 
 # use vim as default editor
 export EDITOR=vim
-
 
 # pip things
 # pip should only run if there is a virtualenv currently activated
@@ -15,3 +12,6 @@ export PIP_REQUIRE_VIRTUALENV=true
 gpip(){
 		PIP_REQUIRE_VIRTUALENV="" pip "$@"
 }
+
+# alias
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
