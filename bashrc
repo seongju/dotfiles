@@ -15,3 +15,4 @@ gpip(){
 
 # alias
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
