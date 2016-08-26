@@ -15,4 +15,8 @@ gpip(){
 
 # alias
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
+# enable coloring
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
