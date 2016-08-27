@@ -29,3 +29,10 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
 done
+
+#this is for the ftplugin python
+echo "Creating ~/.vim/ftplugin for python formatting"
+ftplugin=~/.vim/ftplugin
+mkdir -p $ftplugin
+mv $ftplugin/python.vim $olddir
+ln -s $dir/python.vim $ftplugin/python.vim
