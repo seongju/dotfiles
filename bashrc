@@ -3,7 +3,6 @@
 # use vim as default editor
 export EDITOR=vim
 
-# pip things
 # pip should only run if there is a virtualenv currently activated
 export PIP_REQUIRE_VIRTUALENV=true
 
@@ -19,4 +18,5 @@ alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 # enable coloring
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
+
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
