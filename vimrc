@@ -21,12 +21,3 @@
 :set cursorline					    " underline current line
 :imap kj <esc>					    " map kj to esc
 :set background=dark
-
-" This section is for vim-plug
-call plug#begin()
-
-Plug 'scrooloose/nerdtree'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-
-call plug#end()
-" vim plug ends

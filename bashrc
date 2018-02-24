@@ -12,9 +12,6 @@ gpip(){
 		PIP_REQUIRE_VIRTUALENV="" pip "$@"
 }
 
-# alias
-alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
-
 # enable coloring
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
